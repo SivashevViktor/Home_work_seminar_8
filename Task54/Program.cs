@@ -10,10 +10,10 @@
 // 2 4 4 8
 
 Console.WriteLine("Введите количество строк");
-int linesVol = Convert.ToInt32(Console.ReadLine());
+int Line = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов");
-int columnsVol = Convert.ToInt32(Console.ReadLine());
-int[,] numbers = new int[linesVol, columnsVol];
+int Column = Convert.ToInt32(Console.ReadLine());
+int[,] numbers = new int[Line, Column];
 FillArrayRandomNumbers(numbers);
 Console.WriteLine();
 Console.WriteLine("Исходный массив");
